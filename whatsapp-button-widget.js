@@ -8,7 +8,7 @@ var RasayelWhatsAppWidget=function(l){"use strict";var L=Object.defineProperty;v
     </div>
 
     <a href="https://wa.me/${a.phone.replace("+","")}${t}" target="_blank" rel="noopener" class="ras-waba-chat-content-cta">${a.cta}</a>
-  `,e.querySelector(".waba-pattern");const s="https://widget.rasayel.io/whatsapp/whatsapp-pattern.png";return e.style.setProperty("--pattern-url",`url('${s}')`),e}function $(){const a=document.createElement("button");return a.type="button",a.className="ras-waba-button",a.innerHTML=`${h}<span>Chat on WhatsApp</span>`,a}function v(a){const e=document.createElement("div");e.className="ras-waba-header";const t=document.createElement("div");if(t.className="ras-waba-header-text",a.avatar){const o=document.createElement("div");o.innerHTML=`
+  `,e.querySelector(".waba-pattern");const s="https://widget.rasayel.io/whatsapp/whatsapp-pattern.png";return e.style.setProperty("--pattern-url",`url('${s}')`),e}function $(){const a=document.createElement("button");return a.type="button",a.className="ras-waba-button",a.innerHTML=`${h}`,a}function v(a){const e=document.createElement("div");e.className="ras-waba-header";const t=document.createElement("div");if(t.className="ras-waba-header-text",a.avatar){const o=document.createElement("div");o.innerHTML=`
       <div class="ras-waba-header-avatar${a.avatarStyle==="full"?"":" is-padded"}">
         <img src="${a.avatar}">
       </div>
